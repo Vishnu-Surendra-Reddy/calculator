@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="app.css" rel="stylesheet"></link>
+</head>
+<body>
+    <textarea disabled id="data"></textarea>  
+    <div id="sizes">
+      <div id="k1" onclick="fun('1')">1</div>
+      <div id="k2"onclick="fun('2')">2</div>
+      <div id="k3"onclick="fun('3')">3</div>
+      <div id="k4"onclick="fun('+')">+</div>
+      <div id="k1"onclick="fun('4')">4</div>
+      <div id="k2"onclick="fun('5')">5</div>
+      <div id="k3"onclick="fun('6')">6</div>
+      <div id="k4"onclick="fun('-')">-</div>
+      <div id="k1"onclick="fun('7')">7</div>
+      <div id="k2"onclick="fun('8')">8</div>
+      <div id="k3"onclick="fun('9')">9</div>
+      <div id="k4"onclick="fun('*')">X</div>
+      <div id="k1"onclick="fun('/')">/</div>
+      <div id="k2"onclick="fun('%')">%</div>
+      <div id="k3"onclick="fun('0')">0</div>
+      <div id="k4" onclick="solve()">=</div>
+      <div id="k1" onclick="escape()">ESC</div>
+      <div id="k2"onclick="cancel()">cancel</div>
+      <div id="k3"onclick="fun('.')">.</div>
+      <div id="k4" onclick="toggle()">+/-</div>
+      <div id="k1" onclick="mathematical('√')">&radic;x</div>
+      <div id="k2"onclick="mathematical('∛')"><sup>3</sup>&radic;x</div>
+      <div id="k3"onclick="mathematical('x²')">x²</div>
+      <div id="k4" onclick="mathematical('x³')">x³</div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

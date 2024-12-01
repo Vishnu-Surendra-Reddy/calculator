@@ -1,0 +1,77 @@
+body
+{
+    margin-left: 500px;
+    width:445px;
+    height: 610px;
+    border: 3px solid black;
+}
+textarea
+{
+    resize: none;
+    width:436px;
+    height:150px;
+    border:3px solid red;
+    background-color:cornflowerblue;
+    color: white;
+}
+#sizes
+{
+    background-color: gray;
+    margin-top: -5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width :445px;
+    cursor: pointer;
+}
+#sizes #k1
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+    border:3px solid black;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    color: chartreuse;
+}
+#sizes #k2
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+    border:3px solid black;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color:blueviolet;
+    color: coral
+}
+#sizes #k3
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+    border:3px solid black;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: deeppink;
+    color:cornsilk
+}
+#sizes #k4
+{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80px;
+    height:40px;
+    border:3px solid black;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color:darkturquoise;
+    color: greenyellow
+}
